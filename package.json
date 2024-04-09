@@ -8,7 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "vite --mode dev",
+    "dev": "node ascii_art.js &&vite --mode dev",
     "dev:prod": "vite --mode prod",
     "build": "vue-tsc --noEmit --skipLibCheck && vite build --mode prod",
     "preview": "vite preview",
